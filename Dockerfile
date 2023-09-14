@@ -1,4 +1,4 @@
 FROM openjdk:11
 EXPOSE 8080
-ADD target/ideal-project-1.0-SNAPSHOT.jar ideal-project-1.0-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/ideal-project-1.0-SNAPSHOT.jar"]
+ADD target/devops-integration.jar devops-integration.jar
+ENTRYPOINT ["java","-jar","/devops-integration.jar"]
